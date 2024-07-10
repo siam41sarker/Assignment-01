@@ -7,11 +7,14 @@
 .font{
     font-family: "Azeret Mono", monospace;
 }
+body{
+    margin-left: 40px;
+}
 #header{
 
 }
 #header .hero-section{
-    width: 1440;
+    width: 1440px;
     height:652px;
     margin-top: 131px;
     background-image: url(assets/Hero-bg.png);
@@ -53,6 +56,9 @@
     color:rgb(13,19,33);
     opacity: 0.7;
 }
+#header .hero-section .banner-section a{
+    text-decoration: none;
+}
 #header .hero-section .banner-section button{
     border:none;
     background-color: rgb(13,19,33);
@@ -64,10 +70,13 @@
     font-weight: 600;
     padding: 21px 24px;
     cursor: pointer;
+    transition: all 0.3s ease-in;
 }
-#main{
-
+#header .hero-section .banner-section button:hover{
+    background-color: #c23d40;
+    color:#fff;
 }
+/*main section start*/
 #main .main-content{
     width:1140px;
     height:1395px;
@@ -157,6 +166,12 @@
     margin-top: 32px;
     text-align: center;
     cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+#main .main-content .main-content-container .main-part .main-part-div .contents1 .content-text button:hover{
+    background-color: #c23d40;
+    color:#fff;
+    border:none;
 }
 #main .main-content .main-content-container .main-part .main-part-div .contents1 .content-img{
     width:259.56px;
@@ -208,6 +223,12 @@
     margin-top: 32px;
     text-align: center;
     cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+#main .main-content .main-content-container .main-part .main-part-div .contents2 .content-text button:hover{
+    background-color: #c23d40;
+    color:#fff;
+    border:none;
 }
 #main .main-content .main-content-container .main-part .main-part-div .contents2 .content-img{
     width:259.56px;
@@ -256,6 +277,12 @@
     margin-top: 32px;
     text-align: center;
     cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+#main .main-content .main-content-container .main-part .main-part-div .contents3 .content-text button:hover{
+    background-color: #c23d40;
+    color:#fff;
+    border:none;
 }
 #main .main-content .main-content-container .main-part .main-part-div .contents3 .content-img{
     width:259.56px;
@@ -382,6 +409,10 @@
     margin-top: 24px;
     text-transform: capitalize;
     display: inline-block;
+    transition: all 0.3s ease-in;
+}
+#main .target-section .skill-section .skill1 a:hover{
+    font-size: 18px;
 }
 
 #main .target-section .skill-section .skill2{
@@ -421,6 +452,10 @@
     margin-top: 24px;
     text-transform: capitalize;
     display: inline-block;
+    transition: all 0.3s ease-in;
+}
+#main .target-section .skill-section .skill2 a:hover{
+    font-size: 18px;
 }
 #main .target-section .skill-section .skill3{
     width:364px;
@@ -459,6 +494,10 @@
     margin-top: 24px;
     text-transform: capitalize;
     display: inline-block;
+    transition: all 0.3s ease-in;
+}
+#main .target-section .skill-section .skill3 a:hover{
+    font-size: 18px;
 }
 /*main last part*/
 #main .main-last-part{
@@ -513,4 +552,32 @@
     background-color: #fff;
     margin-left: 16px;
     width:120px;
+}
+/*Footer part*/
+#footer{
+    width:1440px;
+    height:100px;
+    background-color: rgba(13, 19, 33, 0.03)
+    ;
+    border-radius: 16px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer h3{
+    color:rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding:32px 150px
+}
+#footer .footer-icons{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding:32px 150px;
+}
+#footer .footer-icons a{
+    text-decoration: none;
 }
