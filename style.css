@@ -310,7 +310,153 @@
 }
 /*main section part 3*/
 #main .target-section{
-    height:1140px;
-    width:463px;
-    border:
+    width:1140px;
+    height:463px;
+    margin-top:149px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+#main .target-section .target-description{
+    width:852px;
+    height:115px;
+}
+#main .target-section .target-description h3{
+    text-align: center;
+    color:rgb(13, 19, 33);
+    font-size:32px;
+    font-weight:800;
+}
+#main .target-section .target-description p{
+    color:rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+    margin-top: 24px;
+}
+#main .target-section .skill-section{
+    width:1140px;
+    height:300px;
+    display: flex;
+    justify-content: space-between;
+    gap:24px
+}
+#main .target-section .skill-section .skill1{
+    width:364px;
+    height:300px;
+    border-radius: 16px;
+    background-color: rgba(255,76,30,0.05);
+}
+#main .target-section .skill-section .skill1 img{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+#main .target-section .skill-section .skill1 h3{
+    color:rgb(13, 19, 33);
+    font-size: 24px;
+    text-align: left;
+    font-weight: 800;
+    margin-top: 32.6px;
+    padding-left: 40px;
+    text-transform: uppercase;
+}
+#main .target-section .skill-section .skill1 p{
+    padding-left: 40px;
+    color:rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 12px;
+    text-align: left;
+}
+#main .target-section .skill-section .skill1 a{
+    color:rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 40px;
+    margin-top: 24px;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+#main .target-section .skill-section .skill2{
+    width:364px;
+    height:300px;
+    border-radius: 16px;
+    background-color: rgba(0,76,232,0.05);
+}
+#main .target-section .skill-section .skill2 img{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+#main .target-section .skill-section .skill2 h3{
+    color:rgb(13, 19, 33);
+    font-size: 24px;
+    text-align: left;
+    font-weight: 800;
+    margin-top: 32.6px;
+    padding-left: 40px;
+    text-transform: uppercase;
+}
+#main .target-section .skill-section .skill2 p{
+    padding-left: 40px;
+    color:rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 12px;
+    text-align: left;
+}
+#main .target-section .skill-section .skill2 a{
+    color:rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 40px;
+    margin-top: 24px;
+    text-transform: capitalize;
+    display: inline-block;
+}
+#main .target-section .skill-section .skill3{
+    width:364px;
+    height:300px;
+    border-radius: 16px;
+    background-color: rgba(255,223,0,0.05);
+}
+#main .target-section .skill-section .skill3 img{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+#main .target-section .skill-section .skill3 h3{
+    color:rgb(13, 19, 33);
+    font-size: 24px;
+    text-align: left;
+    font-weight: 800;
+    margin-top: 32.6px;
+    padding-left: 40px;
+    text-transform: uppercase;
+}
+#main .target-section .skill-section .skill3 p{
+    padding-left: 40px;
+    color:rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 12px;
+    text-align: left;
+}
+#main .target-section .skill-section .skill3 a{
+    color:rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 40px;
+    margin-top: 24px;
+    text-transform: capitalize;
+    display: inline-block;
 }
